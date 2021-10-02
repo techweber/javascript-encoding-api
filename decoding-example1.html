@@ -1,0 +1,10 @@
+<script>
+
+	let win1251decoder = new TextDecoder('windows-1251')
+
+	let bytes = new Uint8Array([207,240,232,226,229,242,44,32,236,232,240,33]);
+
+	console.log(win1251decoder.decode(bytes));
+
+
+</script>
